@@ -2,8 +2,8 @@
   .col-sm-12.col-md-8
     %h1 Anmeldung erforderlich
     .loginBox
-      %a.loginButton.btn.btn-lg.btn-primary(href='/users/saml/sign_in' data-role='button')
-        Login mit netz.gruene.de
+      = link_to 'Login mit GitHub', user_github_omniauth_authorize_path,
+        class: 'loginButton btn btn-lg btn-primary', data: { role: 'button' }
 .row
   .col-sm-12.col-md-8
     %p

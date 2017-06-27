@@ -1,4 +1,4 @@
-class SamlSessionsController < Devise::SamlSessionsController
+class SessionsController < Devise::SessionsController
   def create
     self.resource = warden.authenticate!(auth_options)
     set_flash_message!(:success, :signed_in)
