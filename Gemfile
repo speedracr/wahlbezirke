@@ -21,7 +21,6 @@ gem 'emd', '~> 0.1.0'
 gem 'ransack', '~> 1.8', '>= 1.8.2'
 gem 'devise', '~> 4.3'
 gem 'omniauth-github', '~> 1.3'
-gem 'random_records', github: 'grosser/random_records'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'

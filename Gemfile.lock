@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/grosser/random_records.git
-  revision: 4aa82a3a313cf6eb6f0f3ca954786b3aebf816ed
-  specs:
-    random_records (0.2.0)
-      activerecord
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -308,7 +301,6 @@ DEPENDENCIES
   pg
   puma (~> 3.0)
   rails (~> 5.0.2)
-  random_records!
   ransack (~> 1.8, >= 1.8.2)
   redcarpet (~> 3.4.0)
   sass-rails (~> 5.0)

@@ -1,12 +1,12 @@
 .row
   .col-sm-12.col-md-8
-    %h1 Anmeldung erforderlich
+    %h1 Login required
     .loginBox
-      = link_to 'Login mit GitHub', user_github_omniauth_authorize_path,
+      = link_to 'Login using GitHub', user_github_omniauth_authorize_path,
         class: 'loginButton btn btn-lg btn-primary', data: { role: 'button' }
 .row
   .col-sm-12.col-md-8
     %p
-      Das Passwort kann unter
-      = link_to 'netz.gruene.de', 'https://netz.gruene.de'
-      zurückgesetzt werden. Falls du deine Anmeldedaten nicht (mehr) kennst, schreibe eine Mail an netz@gruene.de
+      This application uses an OAuth-based GitHub login for demo purposes.
+    %p
+      The dataset is a scrambled sample of the original data that does not correspond with actual values.

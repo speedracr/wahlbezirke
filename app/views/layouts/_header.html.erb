@@ -11,14 +11,14 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <%= form_tag('/search', local: true, method: :get, class: 'form-inline searchModule' ) do %>
         <%= text_field_tag(:q, nil, data: { behavior: 'autocomplete' },
-                           placeholder: 'WK, Gemeinde, ...', id: 'searchField',
+                           placeholder: 'Precinct, district, ...', id: 'searchField',
                           class: 'form-control mr-sm-2') %>
-                        <%= button_tag('Suchen', class: 'btn btn-outline-success my-2 my-sm-0',
+                        <%= button_tag('Search', class: 'btn btn-outline-success my-2 my-sm-0',
                                        id: 'searchSubmit', type: 'submit') %>
       <% end %>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/faq">FAQ / Anleitung</a>
+          <a class="nav-link" href="/faq">FAQ</a>
         </li>
       </ul>
     </div>
