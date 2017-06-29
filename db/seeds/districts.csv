@@ -1,0 +1,137 @@
+state_id;district_identifier;name
+1;2;Nordfriesland-Dithmarschen Nord
+1;3;Steinburg-Dithmarschen Süd
+1;11;Lübeck
+1;9;Ostholstein-Stormarn-Nord
+1;4;Rendsburg-Eckernförde
+1;5;Kiel
+1;10;Herzogtum Lauenburg-Stormarn-Süd
+1;7;Pinneberg
+1;6;Plön-Neumünster
+1;8;Segeberg-Stormarn-Mitte
+2;12;Schwerin-Ludwigslust-Parchim I-Nordwestmecklenburg I
+2;16;Mecklenburgische Seenplatte I-Vorpommern-Greifswald II 
+2;17;Mecklenburgische Seenplatte II-Landkreis Rostock III
+2;13;Ludwigslust-Parchim II-Nordwestmecklenburg II-Landkreis Rostock I
+2;14;Rostock-Landkreis Rostock II
+2;15;Vorpommern-Rügen-Vorpommern-Greifswald I
+3;21;Hamburg-Nord
+3;22;Hamburg-Wandsbek
+3;23;Hamburg-Bergedorf-Harburg
+3;19;Hamburg-Altona
+3;20;Hamburg-Eimsbüttel
+3;18;Hamburg-Mitte
+4;33;Diepholz-Nienburg I
+4;30;Stade I-Rotenburg II
+4;38;Osnabrück-Land
+4;46;Hameln-Pyrmont-Holzminden
+4;49;Salzgitter-Wolfenbüttel
+4;34;Osterholz-Verden
+4;43;Hannover-Land I
+4;44;Celle-Uelzen
+4;26;Friesland-Wilhelmshaven-Wittmund
+4;36;Harburg
+5;54;Bremen I
+5;55;Bremen II-Bremerhaven
+6;60;Brandenburg an der Havel-Potsdam-Mittelmark I-Havelland III-Teltow-Fläming I
+6;62;Dahme-Spreewald-Teltow-Fläming III-Oberspreewald-Lausitz I
+6;61;Potsdam-Potsdam-Mittelmark II-Teltow-Fläming II
+6;64;Cottbus-Spree-Neiße
+6;58;Oberhavel-Havelland II
+6;65;Elbe-Elster-Oberspreewald-Lausitz II
+6;63;Frankfurt (Oder)-Oder-Spree
+6;56;Prignitz-Ostprignitz-Ruppin-Havelland I
+6;57;Uckermark-Barnim I
+6;59;Märkisch-Oderland-Barnim II
+7;66;Altmark
+7;71;Anhalt
+7;69;Magdeburg
+7;70;Dessau-Wittenberg
+7;68;Harz
+7;72;Halle
+7;73;Burgenland-Saalekreis
+7;74;Mansfeld
+7;67;Börde-Jerichower Land
+8;83;Berlin-Friedrichshain-Kreuzberg-Prenzlauer Berg Ost
+8;82;Berlin-Neukölln
+8;76;Berlin-Pankow
+8;80;Berlin-Charlottenburg-Wilmersdorf
+8;81;Berlin-Tempelhof-Schöneberg
+8;84;Berlin-Treptow-Köpenick
+8;86;Berlin-Lichtenberg
+8;79;Berlin-Steglitz-Zehlendorf
+8;78;Berlin-Spandau-Charlottenburg Nord
+8;85;Berlin-Marzahn-Hellersdorf
+9;120;Essen III
+9;133;Herford-Minden-Lübbecke II
+9;104;Mettmann I
+9;136;Höxter-Lippe II
+9;98;Rhein-Sieg-Kreis II
+9;91;Rhein-Erft-Kreis I
+9;132;Bielefeld-Gütersloh II
+9;113;Wesel I
+9;131;Gütersloh I
+9;148;Siegen-Wittgenstein
+10;160;Dresden II-Bautzen II
+10;154;Leipzig-Land
+10;166;Vogtlandkreis
+10;161;Mittelsachsen
+10;163;Chemnitzer Umland-Erzgebirgskreis II
+10;158;Sächsische Schweiz-Osterzgebirge
+10;164;Erzgebirgskreis I
+10;162;Chemnitz
+10;151;Nordsachsen
+10;155;Meißen
+11;175;Main-Kinzig-Wetterau II-Schotten
+11;183;Frankfurt am Main II
+11;182;Frankfurt am Main I
+11;180;Hanau
+11;171;Marburg
+11;179;Wiesbaden
+11;186;Darmstadt
+11;172;Lahn-Dill
+11;167;Waldeck
+11;187;Odenwald
+12;197;Neuwied
+12;193;Erfurt-Weimar-Weimarer Land II
+12;192;Gotha-Ilm-Kreis
+12;190;Eisenach-Wartburgkreis-Unstrut-Hainich-Kreis
+12;194;Gera-Greiz-Altenburger Land
+12;191;Jena-Sömmerda-Weimarer Land I
+12;195;Saalfeld-Rudolstadt-Saale-Holzland-Kreis-Saale-Orla-Kreis
+12;189;Eichsfeld-Nordhausen-Kyffhäuserkreis
+12;196;Suhl-Schmalkalden-Meiningen-Hildburghausen-Sonneberg
+13;210;Pirmasens
+13;206;Worms
+13;204;Montabaur
+13;212;Altötting
+13;207;Ludwigshafen/Frankenthal
+13;201;Kreuznach
+13;200;Mosel/Rhein-Hunsrück
+13;202;Bitburg
+13;211;Südpfalz
+13;208;Neustadt-Speyer
+14;230;Rottal-Inn
+14;257;Ostallgäu
+14;222;Rosenheim
+14;239;Hof
+14;231;Straubing
+14;229;Passau
+14;236;Bamberg
+14;238;Coburg
+14;248;Bad Kissingen
+14;241;Ansbach
+15;281;Freiburg
+15;263;Göppingen
+15;283;Emmendingen-Lahr
+15;282;Lörrach-Müllheim
+15;264;Waiblingen
+15;265;Ludwigsburg
+15;285;Rottweil-Tuttlingen
+15;261;Esslingen
+15;278;Bruchsal-Schwetzingen
+15;291;Ulm
+16;298;St. Wendel
+16;297;Saarlouis
+16;296;Saarbrücken
+16;299;Homburg
