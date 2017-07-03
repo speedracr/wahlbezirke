@@ -1,3 +1,10 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
 # Create states from seed file
 File.readlines("#{Rails.root}/db/seeds/states.csv").drop(1).each do |state|
   name, abbreviation = state.split(';')
@@ -27,7 +34,7 @@ end
 Municipality.all.each do |municipality|
   i = 1
   (Random.rand(20) + 3).times do
-    score = Random.rand(1000000)/1000000
+    score = Random.rand(1000000)/1000000.to_f
     Precinct.create(municipality: municipality,
                     district_score: score, precinct_identifier: i)
     i += 1
@@ -35,4 +42,4 @@ Municipality.all.each do |municipality|
 end
 
 # Sort precincts
-
+# Municipality.last.precincts.sort_by { |precinct| precinct.district_score }.each
