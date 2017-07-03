@@ -33,7 +33,7 @@ end
 # Create precincts with random data
 Municipality.all.each do |municipality|
   i = 1
-  (Random.rand(20) + 3).times do
+  (Random.rand(15) + 8).times do
     score = Random.rand(1000000)/1000000.to_f
     Precinct.create(municipality: municipality,
                     district_score: score, precinct_identifier: i)
@@ -41,5 +41,20 @@ Municipality.all.each do |municipality|
   end
 end
 
-# Sort precincts
-# Municipality.last.precincts.sort_by { |precinct| precinct.district_score }.each
+# Assign municipality rank
+i = 1
+Municipality.all.each do |municipality|
+  municipality.precincts.sort_by { |precinct| precinct.district_score }.reverse.each do |p|
+    p.update(municipality_rank: i)
+    i += 1
+  end
+end
+
+# Assign district rank
+i = 1
+District.all.each do |district|
+  district.precincts.sort_by { |precinct| precinct.district_score }.reverse.each do |p|
+    p.update(district_rank: i)
+    i += 1
+  end
+end
