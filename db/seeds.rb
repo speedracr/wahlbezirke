@@ -19,7 +19,7 @@ end
 # Create municipalities from seed file
 # FILE CONTAINS SAMPLE VALUES ONLY
 puts 'Creating municipalities...'
-File.readlines("#{Rails.root}/db/seeds/municipalities.csv").drop(1).
+File.readlines("#{Rails.root}/db/seeds/municipalities.csv").drop(1).sample(502).
   each do |municipality|
   name, municipality_identifier, district_identifier = municipality.
     chomp.split(';')
@@ -34,7 +34,7 @@ end
 puts 'Creating precincts...'
 i = 1
 Municipality.all.each do |municipality|
-  (Random.rand(15) + 8).times do
+  (Random.rand(18) + 6).times do
     score = Random.rand(1000000)/1000000.to_f
     Precinct.create(municipality: municipality,
                     district_score: score, precinct_identifier: i)
