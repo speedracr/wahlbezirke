@@ -36,8 +36,9 @@ i = 1
 Municipality.all.each do |municipality|
   (Random.rand(18) + 6).times do
     score = Random.rand(1000000)/1000000.to_f
-    Precinct.create(municipality: municipality,
-                    district_score: score, precinct_identifier: i)
+    Precinct.create(municipality: municipality, 
+      district: municipality.district, district_score: score, 
+      precinct_identifier: i)
     i += 1
     print '.'
   end
