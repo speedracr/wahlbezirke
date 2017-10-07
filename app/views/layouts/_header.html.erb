@@ -25,11 +25,6 @@
   </div>
 </nav>
 
-<div class='container'>
-<div>Github Client ID: <%= ENV['GITHUB_CLIENT_ID'] %></div>
-<div>Callback URL: <%= ENV['CALLBACK_URL'] %></div>
-</div>
-
 <% flash.each do |key, value| %>
   <div class='container <%= "fb-#{key}" %>' id="flashBox">
     <div class="row">
