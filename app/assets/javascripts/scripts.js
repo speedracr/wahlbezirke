@@ -18,7 +18,6 @@ var flashhide = function() {
   }, 3500);
 };
 
-
 $(document).on('turbolinks:load', flashfade);
 $(document).on('turbolinks:load', flashhide);
 $(document).on('turbolinks:load', tablesort);
