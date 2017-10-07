@@ -11,8 +11,11 @@
 .row
   .col-sm-12
     .heading
-      = link_to 'Wahlbezirke', district_path(@district), class: 'switcher passiveSwitcher'
-      = link_to 'Gemeinden', district_path(@district, gemeinde: '1'), class: 'switcher activeSwitcher'
+      = link_to 'Wahlbezirke', district_path(@district.district_identifier),
+        class: 'switcher passiveSwitcher'
+      = link_to 'Gemeinden',
+        district_path(@district.district_identifier, gemeinde: '1'),
+        class: 'switcher activeSwitcher'
       im Wahlkreis
       = @district.district_identifier
       = @district.name
