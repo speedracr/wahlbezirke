@@ -1,5 +1,6 @@
 class User < ApplicationRecord
-  devise :omniauthable, :trackable, omniauth_providers:  [:github]
+  devise :database_authenticatable, :omniauthable,
+    :trackable, omniauth_providers:  [:github]
 
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
