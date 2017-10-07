@@ -12,6 +12,8 @@
  */
 var EasyAutocomplete = (function(scope){
 
+  console.log('EasyAutocomplete loaded.');
+
 	scope.Configuration = function Configuration(options) {
 		var defaults = {
 			data: "list-required",
