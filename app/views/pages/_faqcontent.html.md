@@ -1,3 +1,23 @@
+----
+## **Author's note**
+This application uses Ruby on Rails 5.1 and a Postgres database to
+display and provide search across elective potential scores for elective
+districts in Germany. It was built as a fast add-on for the 2017 federal
+campaign together with the federal office of the German Green party.
+
+**Features**
+
+- autocomplete search across all available districts and municipalities
+- sort districts and municipalities by column
+- fully integrate existing authentication solution `netz.gruene.de` via
+  OAuth/SAML (switched to OAuth/ GitHub for demo app)
+- allow for swift, code-free guideline updates via markdown renderer of
+  FAQ page
+- specifically for this demo version: include a random, reduced dataset via seed
+  file
+
+----
+
 ## 1) Was ist Potentialgrün?
 Potentialgrün soll euch helfen, euren Wahlkampf auf die aussichtsreichen Wahlbezirke bzw. Gemeinden eures Wahlkreises auszurichten. Es umfasst noch mal mehr Daten, als im Wahlatlas bereits dargestellt werden.
 
